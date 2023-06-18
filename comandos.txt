@@ -1,0 +1,30 @@
+Al crear el repositorio nos aparecen los comandos basicos:
+
+git init -----para iniciar el repositorio
+git add README.md -------si queremos crear un fichero readme
+git commit -m "first commit" -------cuando queremos realizar un primer commit
+git branch -M main -------con este comando crearemos una rama
+git checkout main ------- cambiamos a la rama main
+git remote add origin https://github.com/Dcorcoles/Typescript.git    -----------direccion remota de nuestro repositorio
+git push -u origigit pushn main  para subir a github nuestros cambios
+git log ------- Listar los commits
+
+
+Primero debemos guardar los cambios en local
+
+Si es la primera vez debemos iniciar git:
+git init
+
+los siguientes comando los repetiremos asiduamente
+git status -s
+git add .
+git commit -m "mensaje"
+
+
+Para trabajar con el repositorio en la nube, solo la primera vez:
+
+git remote add origin https://github.com/Dcorcoles/HTML-CSS-JavaScripts.git
+
+Una vez hemos hecho nuestras modificaciones y commits correspondientes ejecutamos el siguiente comando:
+git push -u origin master
+
